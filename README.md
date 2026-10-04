@@ -8,8 +8,9 @@ Individual course project for Data Mining, MSc in Data Science and Advanced Anal
 
 - Builds value-based and behavioural features for 16,500 airline customers.
 - Detects multivariate outliers with DBSCAN before clustering.
-- Compares K-means, hierarchical clustering and Self-Organising Maps, validated with silhouette scores.
-- Merges clusters from the two perspectives into final segments.
+- Clusters customers from two perspectives: value-based features and behavioural features.
+- For each perspective, compares three methods (K-means, hierarchical clustering and Self-Organising Maps), validated with silhouette scores.
+- Merges the value-based and behavioural clusters into six final segments.
 - Visualises the clusters with PCA, t-SNE and UMAP.
 - Describes six customer profiles and recommends how marketing should target each.
 
